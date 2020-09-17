@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<style>
+	
+	.box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+			}
+
+	#pic {
+	   float: left; 
+	 }
+	 
+	.text {
+	    margin-left: 150px;
+	 }
+	 
+	.block1 {
+		width: 600px;
+		height: 130px;
+		background: #e9e9e9;
+		padding: 5px;
+		padding-right: 20px;
+		float: bottom;
+	 }
+	 
+	.parent {
+		position: relative;
+	 }
+		
+	.child1 {
+		position: absolute;
+		top: -200;
+		left: 0;
+		}
+	
+	.child2  {
+		position: absolute;
+		top: -200;
+		right: 0;
+		}
+		
+    .block2 {
+	width: 290px;
+	height: 20px;
+	border: 3px;
+	background: #f2a7eb;
+		}
+  
+    .center {
+	text-align:center;
+	font-size: 14px;
+	font-family: d_Kallisto, Lucida Bright, serif;
+	}
+	
+	 .block3 {
+	position: absolute;
+	top: 167px;
+	width: 290px;
+	height: 20px;
+	border: 3px;
+	background: #f2a7eb;
+		}
+  
+    .center3 {
+	text-align:center;
+	font-size: 14px;
+	font-family: d_Kallisto, Lucida Bright, serif;
+	}
+	
+    .line-height {
+	line-height: 1.5;
+	}
+	
+	.line-height3 {
+	position: absolute;
+	top: 188px;
+	}
+	
+	.line-height4 {
+	position: absolute;
+	top: -17px;
+	right: 65px;
+	}
+	
+	.line-height5 {
+	position: absolute;
+	top: 0px;
+	right: 105px;
+	line-height: 1.5;
+	}
+	
+	#footer {
+	position: relative;
+	top: 350px;
+	right: 5px;
+	width: 600px;
+		height: 60px;
+		background: #e9e9e9;
+		padding: 5px;
+		padding-right: 20px;
+	 }
+	
+	
+	</style>
+	<title>CV</title>
+</head>
+<body>
+
+
+	<div class="box">
+		<div class="block1 parent">
+			<div id="pic">
+				<img src="D:\RS school\Repos\rsschool-cv\CV HTML\K7zGcU7KFyM.jpg" alt="Фото" align="left" width="128" height="128"/>
+			</div>
+			<div class="text">
+				<p><h4><strong>Monika Dranitsa</strong></h4></p>
+			</div>
+			<div class="text">
+				<p><h3>junior front-end developer</h3></i><p>
+				<p><i><small>Minsk, Belarus</small></i></p>
+			</div>
+
+		<div class="child1">
+			<div class="block2 center">
+					<p><h4> About me</h4></p>
+			</div>
+			<div class="line-height">
+				<ul>
+					<li>Have artistic and design skills</li>
+					<li>Like to learn something new</li>
+					<li>Like hard and challenging tasks</li>
+				</ul>
+			</div>
+
+			<div class="block3 center3">
+				<p><h4 class="line-height4"> Technical Experience</h4></p>
+			</div>
+			<div class="line-height line-height3">
+					<ul>
+						<li>Basics of Javascript</li>
+						<li>Basics of HTML</li>
+						<li>Basics of CSS</li>
+						<li>Adobe Photoshop, Corel Draw</li>
+						<li>Basics of Adobe Illustration</li>
+					</ul>
+			</div>
+		</div>
+
+		<div class="child2">
+			<div class="block2 center">
+					<p><h4> Education</h4></p>
+			</div>
+			<div class="line-height">
+				<ul>
+					<li>MSLU, Faculty of English (<i><small>2015-2020</small></i>)-<br><i><strong>English teacher</i></strong></li>
+					<li>MSAC, Faculty of Design (<i><small>2015-2020</small></i>)-<br><i><strong>Graphic designer</i></strong></li>
+				</ul>
+			</div>
+			<div class="block2">
+				<div class="center">
+					<p><strong>Work experience</strong></p>
+				</div>
+				<div class="line-height">
+					<ul>
+						<li>2015 - 2020: <i><strong>Minsk Cable Network</i></strong><br><i>Electrician for supervision<br>of cable lines</i></li>
+						<li>2013 - 2015: <i><strong>Art-Studio "Winner"</i></strong><br><i>Graphic designer</i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	
+		<footer id="footer">
+			<div class="block2 center">
+			<p><h4> Contact me</h4></p>
+			</div>
+			<div class="line-height5">
+					<ul>
+						<li><i><strong>+ 375 29 851 10 21</strong></i></li>
+						<li>dranitsam@gmail.com</li>
+					</ul>
+				</div>
+		</footer>
+	</div>
+</div>
+
+			
+	
+
+
+</body>
+</html>
