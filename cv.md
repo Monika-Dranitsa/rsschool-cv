@@ -21,5 +21,6 @@ Republic of Belarus, Minsk city.
 * 2013 - 2015 - *Art Studio "Winner", Designer*
 
 ##### About me #####
+* *Have artistic and design skills*
 * *Like hard and challenging tasks*
 * *Like to know something new*
