@@ -1,7 +1,7 @@
 **Monika Dranitsa**
 ##### Contact me #####
 
-*+375 29 851 10 21*
+*+375-29-851-10-21*
 *dranitsam@gmail.com*
 
 Republic of Belarus, Minsk city.
